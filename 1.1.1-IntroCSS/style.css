@@ -1,0 +1,45 @@
+/*Selector Universal*/
+
+
+
+/*Selector por etiqueta*/
+h1{
+    color: crimson;
+}
+
+/*Selector por clase*/
+.title{
+    color: green;
+}
+
+
+/*Selector por ID*/
+#unique-title{
+    color: cornflowerblue;
+}
+
+.container-1{
+    background-color: crimson;
+    width: 300px;
+    height: 300px;
+}
+
+.container-2{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+}
+
+.my-btn{
+    background-color: goldenrod;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    transition: 158ms;
+}
+
+.my-btn:hover{
+    background-color: rgb(99, 209, 69);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
